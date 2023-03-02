@@ -47,5 +47,11 @@ nav {
 	margin-left: auto;
 }
 .about-container {
-	
+	display: flex;
+	flex-direction: row;
+}
+
+ .portrait {
+	width: 300px;
+	border-radius: 12px;
 }
