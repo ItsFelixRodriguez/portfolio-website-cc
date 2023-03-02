@@ -6,6 +6,9 @@ body {
 	font-size: 22px;
 	color:#18181b ;
 	background-color: #fafafa;
+/*	max-width: 900px;*/
+	display: flex;
+	flex-direction: column;
 }
 
 /*Nav Bar/Header*/
@@ -34,10 +37,48 @@ body {
 .about-container {
 	display: flex;
 	flex-direction: row;
-	padding-left: 5vw;
-	padding-right: 5vw;
 }
 .portrait {
 	width: 300px;
 	border-radius: 15px;
 }
+.about-container,
+.project {
+		padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+/*Projects*/
+#projects h2 {
+	padding-left: 5vw;
+
+}
+section {
+	padding: 16px 0;
+}
+details {
+	cursor: pointer;
+}
+.project-image {
+	width: 50%;
+}
+.project-title h3 {
+	display: inline;
+}
+summary {
+  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
