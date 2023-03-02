@@ -10,3 +10,14 @@ This project is an attempt to build a personal portfolio website to showcase my 
 + Develop Locally on the computer
 + Deploy using Github Pages
 + Buy a custom Domain name and have it point to my Github Pages website.
+
+
+### Website Layout
+
+#### HEADER
+
+#### NAV BAR
+
+#### ABOUT ME
+
+#### PROJECTS SECTION WTIH PICTURE 
