@@ -1,21 +1,30 @@
-* {
+/** {
 	padding: 0;
 	margin: 0;
-}
+}*/
 body {
 	background-color: #fafafa;
 	color: #18181b;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 0 12px;
 }
 a {
 	text-decoration: none;
 	color: #18181b;
 }
-header {
-	display: flex;
+a:hover {
+	color: #facc15;
+	transform: scale(1.2);
 }
 nav {
 	position: sticky;
 	z-index: 5;
+	display: flex;
+	align-items: center;
+	padding: 16px 0;
 }
 
 /*Nav Bar/ Header */
@@ -28,4 +37,15 @@ nav {
 	flex-direction: row;
 	justify-content: flex-end;
 	margin-right: 2rem;
+}
+.nav-item {
+	display: flex;
+	list-style-type: circle;
+	padding: 0;
+	align-items: center;
+	margin: 0;
+	margin-left: auto;
+}
+.about-container {
+	
 }
