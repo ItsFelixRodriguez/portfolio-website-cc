@@ -22,7 +22,10 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-
+nav a {
+	text-decoration: none;
+	font-weight: 600;
+}
 /*Nav Bar/Header*/
 .nav-item {
 	margin-right: 2rem;
@@ -88,14 +91,28 @@ summary {
   list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
 }
 
+#contact footer{
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
 
+footer {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+footer p {
+	font-family: Sligoil;
+}
 
+footer img {
+	width: 50px;
+}
 
-
-
-
-
-
+footer a {
+	text-decoration: none;
+}
 
 
 
