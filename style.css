@@ -1,12 +1,24 @@
+@font-face {
+	font-family: Minipax;
+	src: url(Minipax-master/fonts/otf/Minipax-Regular.otf);
+}
+@font-face{
+	font-family: Minipax;
+	src: url(Minipax-master/fonts/otf/Minipax-Bold.otf);
+	font-weight: bold;
+}
+@font-face{
+	font-family: Sligoil;
+	src: url(fonts/sligoil-main/fonts/Sligoil-Micro.otf);
+}
 html {
 		width: 90vw;
 }
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: Minipax, serif;
 	font-size: 22px;
 	color:#18181b ;
-	background-color: #fafafa;
-/*	max-width: 900px;*/
+	background-color: #E9F6D4;
 	display: flex;
 	flex-direction: column;
 }
@@ -39,15 +51,19 @@ body {
 	flex-direction: row;
 }
 .portrait {
-	width: 300px;
+	width: 50%;
+	height: 50%;
 	border-radius: 15px;
 }
 .about-container,
-.project {
+.project,
+.skills {
 		padding-left: 5vw;
 	padding-right: 5vw;
 }
-
+.about-text p{
+	font-family: Sligoil;
+}
 /*Projects*/
 #projects h2 {
 	padding-left: 5vw;
@@ -55,9 +71,12 @@ body {
 }
 section {
 	padding: 16px 0;
+
 }
 details {
 	cursor: pointer;
+		font-family: Sligoil;
+
 }
 .project-image {
 	width: 50%;
