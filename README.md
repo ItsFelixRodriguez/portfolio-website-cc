@@ -18,3 +18,10 @@ The webpage is complete after 3 days of revisions. The biggest challenge for me 
 Overall this is looking like one of my better projects I have put together even if I did succumb to scope creep once or twice.
 
 Fonts used are Minipax and Sligoil which can be used freely via https://velvetyne.fr/
+
+***Update***
+The website is live! It still needs to be formatted to look better on mobile but 
+
+https://felixrodriguez.me/ 
+
+lives!
