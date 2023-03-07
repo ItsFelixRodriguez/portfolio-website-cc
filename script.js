@@ -1,5 +1,9 @@
-// DOM Events
-const myButton = document.querySelector('button');
+const body = document.body
+const fortune = document.querySelector("#fortune");
+fortune.innerHTML = ''
+
+
+
 
 
 let mixed = {
@@ -29,15 +33,18 @@ const horoscope = () => {
 	let randSign = getRandomItem(mixed.sign);
 	let randLuck = getRandomItem(mixed.luck);
 	let randAdvice = getRandomItem(mixed.advice);
-	return `WELCOME TO SHITTY HOROSCOPES LIMITED:
+	return `WELCOME TO SHITTY HOROSCOPES LIMITED: 
 
 	Hmmmm your sign seems to be: ${randSign}.
 
 	Your Luck is looking: ${randLuck}
 
 	Given that, we advise you to: ${randAdvice}`
+
 }
 
-console.log(horoscope());
+const event = horoscope();
+fortune.innerHTML=event
 
-myButton.onclick = horoscope
+// const myButton = document.querySelector("#button");
+// myButton.addEventListener("click", horoscope)

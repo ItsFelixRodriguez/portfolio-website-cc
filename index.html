@@ -6,7 +6,7 @@
 	<title>Portfolio Website</title>
 	<!-- <link rel="stylesheet" href="reset.css"> -->
 	<link rel="stylesheet" href="style.css">
-	<script src="script.js"></script>
+	<script src="script.js" defer></script>
 </head>
 <body>	
 	<nav>
@@ -60,7 +60,9 @@
 				<p class="project-description">
 					I built a randomly generated horoscope program in Javascript.
 				</p>
-				<button>Click Here for a "Horoscope"</button>
+			<button id="button">Click Here for a "Horoscope"</button>
+
+				<div class="fortune" id="fortune"></div>
 			</details>
 <details class="project">
 				<summary class="project-title">

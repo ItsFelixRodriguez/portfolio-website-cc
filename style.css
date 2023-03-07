@@ -13,6 +13,7 @@
 }
 html {
 		width: 90vw;
+		line-height: 1.1;
 }
 body {
 	font-family: Minipax, serif;
@@ -71,6 +72,10 @@ nav a {
 #projects h2 {
 	padding-left: 5vw;
 
+}
+
+.fortune div {
+	display: hidden;
 }
 section {
 	padding: 16px 0;
