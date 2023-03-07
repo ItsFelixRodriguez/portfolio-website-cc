@@ -43,8 +43,30 @@ const horoscope = () => {
 
 }
 
+
+
+const myButton = document.querySelector("#button");
+const refreshPage = () => {
 const event = horoscope();
 fortune.innerHTML=event
+}
 
-// const myButton = document.querySelector("#button");
-// myButton.addEventListener("click", horoscope)
+myButton.addEventListener('click', refreshPage)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
